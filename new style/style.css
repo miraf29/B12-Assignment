@@ -3,14 +3,8 @@
 
 /* Body Styles */
 .body { 
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    font-family: 'Raleway', sans-serif; 
+    margin: 0, auto;
 }
 
 .main-container {
@@ -54,7 +48,7 @@
     background-color: #4E47FF;
     color: white;
     padding: 10px 25px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: 700px;
     font-size: 16px;
@@ -79,7 +73,7 @@
 }
 
 .content h1 {
-    font-size: 65px;
+    font-size: 60px;
     color: #252432;
     max-width: 850px;
     margin-bottom: 30px;
@@ -90,7 +84,7 @@
     background-color: #4a00e0;
     color: white;
     padding: 15px 35px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: 700px;
     font-size: 16px;
@@ -98,6 +92,62 @@
     
 }
 .focus-button:hover {
+    background-color: #07ce8c;
+    font-style: italic;
+    font-size: larger;
+}
+
+/* Second section: Action */
+
+.action-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.action-space{
+    line-height: 25px;
+
+}
+.action-title{
+    font-weight: 700px;
+    font-size: 42px;
+    color: #252432;
+}
+
+.action-description{
+    font-weight: 400px;
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+    max-width: 500px;
+
+}
+
+.img-style{
+    width: 400px;
+    height: 300px;
+    border-radius: 48px;
+}
+
+.live-button{
+    background-color: #4a00e0;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 16px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.live-button:hover{
     background-color: #07ce8c;
     font-style: italic;
     font-size: larger;
