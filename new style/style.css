@@ -156,16 +156,21 @@
 /* Third section: Productive User */
 
 .Productive-Back{
-    background-color:#f3f4ff;
+    background-color:#e2e5ff;
     border-radius: 24px;
     width: 1000px;
-    height: 150px;
+    height: 180px;
     text-align: center;
     margin-left: 100px;
-    margin-right: 150px;
-    padding-top: 80px;
+    margin-right: 100px;
     padding-bottom: 80px;
+    padding-top: 30px;
 
+}
+.Productive-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #252432;
 }
 
 .Productive-align{
