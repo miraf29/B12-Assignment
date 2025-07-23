@@ -54,7 +54,7 @@
 }
 
 .signup-button:hover {
-    background-color: #07ce8c;
+    background-color: rgb(254, 150, 21);
     font-style: italic;
     font-size: larger;
 }
@@ -88,7 +88,7 @@
     cursor: pointer; 
 }
 .focus-button:hover {
-    background-color: #07ce8c;
+    background-color: rgb(254, 150, 21);
     font-style: italic;
     font-size: larger;
 }
@@ -142,7 +142,7 @@
 }
 
 .live-button:hover{
-    background-color: #07ce8c;
+    background-color: rgb(254, 150, 21);
     font-style: italic;
     font-size: larger;
 }
@@ -197,49 +197,98 @@
 /* Fourth section: Challenge */
 
 .Challenge-body{
-
+    width: 1000px;
+    height: 250px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 .Challenge-heading{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
 
 }
 
 .Challenge-box{
-
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
 }
 
 .Challenge-card{
+    background-color: #ffffff;
+    border-radius: 14px;
+    max-width: 320px;
+    max-height: 220px;
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
 
 }
 
 .star-icon{
+    width: 20px;
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
 
+    
 }
 
 .card-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600px;
+    font-size: 24px;
+    color: #1E1E1E;
 
 }
 
 .card-tag{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200px;
+    font-size: 14px;
+    color: #2c2b2b;
+    opacity: 75%;
+    line-height: 1.2;
 
 }
 
 .Review-stage{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
 
 }
 
 .Reviewer-pic{
-
-}
-
-.Reviewer-details{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
 
 }
 
 .Reviewer-name{
+     font-family: 'Inter', sans-serif;
+     font-weight: 600;
+     font-size: 16px;
+     color: #757575;
+     margin-bottom: 0px;
 
 }
 
 .Reviewer-date{
+     font-family: 'Inter', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+     color: #B3B3B3;
+     margin-top: 5px;
     
 }
