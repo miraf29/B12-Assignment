@@ -5,6 +5,8 @@
 .body { 
     font-family: 'Raleway', sans-serif; 
     margin: 0, auto;
+    background-color: #f4fdff;
+    
 }
 
 .main-container {
@@ -229,6 +231,7 @@
     padding: 20px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
 
+
 }
 
 .star-icon{
@@ -291,4 +294,118 @@
      color: #B3B3B3;
      margin-top: 5px;
     
+} 
+
+/* Fifth section: Form */
+
+.form-main{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    height: 650px;
+    text-align: center;
+    margin: 0, auto;
+    /* gap: 50px; */
+
+}
+
+.form-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+    max-width: 50%;
+    text-align: left;
+
+}
+
+
+.form-style{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 350px;
+
+
+}
+
+.form-group label {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 8px;
+    width: 100%;
+
+}
+
+.form-group input {
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    opacity: 50%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 32px;
+    height: 50px;
+    border: 1px solid;
+     border-color: #b4b4b4;
+     box-sizing: border-box;
+
+}
+
+.form-group textarea{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    opacity: 50%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 32px;
+    padding-top: 20px;
+    height: 100px;
+    resize: none;
+    border: 1px solid;
+    border-color: #b4b4b4;
+    box-sizing: border-box;
+
+}
+
+
+.form-button{
+    background-color: #4a00e0;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700px;
+    font-size: 16px;
+    cursor: pointer;
+    border-style: none;
+    width: 100%;
+    height: 50px;
+}
+
+.form-button:hover{
+    background-color: rgb(254, 150, 21);
+    font-style: italic;
+    font-size: larger;
 }
